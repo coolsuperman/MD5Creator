@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="671,511" sizebox="4,4,4,4" caption="0,0,0,32" mininfo="600,400">
+    <VerticalLayout bkimage="BG_YingHua.png">
+        <HorizontalLayout height="32" bkcolor="#EB7FCBDA" bkcolor2="#005A5A5A">
+            <VerticalLayout />
+            <VerticalLayout width="77">
+                <Button name="minbtn" tooltip="最小化" float="true" pos="0,5,0,0" width="23" height="19" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage=" file=&apos;SysBtn\MinNormal.bmp&apos; " hotimage=" file=&apos;SysBtn\MinFocus.bmp&apos; " pushedimage=" file=&apos;SysBtn\MinFocus.bmp&apos; " />
+                <Button name="maxbtn" tooltip="最大化" float="true" pos="22,5,0,0" width="23" height="19" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage=" file=&apos;SysBtn\MaxNormal.bmp&apos; " hotimage=" file=&apos;SysBtn\MaxFocus.bmp&apos; " pushedimage=" file=&apos;SysBtn\MaxFocus.bmp&apos; " />
+                <Button name="restorebtn" tooltip="还原" visible="false" float="true" pos="22,5,0,0" width="23" height="19" align="center" normalimage=" file=&apos;SysBtn\StoreNormal.bmp&apos; " hotimage=" file=&apos;SysBtn\StoreFocus.bmp&apos; " pushedimage=" file=&apos;SysBtn\StoreFocus.bmp&apos; " />
+                <Button name="closebtn" tooltip="关闭" float="true" pos="44,5,0,0" width="28" height="19" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage=" file=&apos;SysBtn\CloseNormal.bmp&apos; " hotimage=" file=&apos;SysBtn\CloseFocus.bmp&apos; " pushedimage=" file=&apos;SysBtn\CloseFocus.bmp&apos; " />
+            </VerticalLayout>
+        </HorizontalLayout>
+        <HorizontalLayout width="671" height="181">
+            <Edit name="WBK1" float="true" pos="183,74,0,0" width="305" height="38" bkimage="button_over.png" bkcolor="#FFFFFFFF" bkcolor2="#00FFFFFF" textpadding="4,3,4,3" textcolor="#00969696" disabledtextcolor="#FFA7A6AA" readonly="true" normalimage="ComboBox\Combo_nor.bmp" hotimage="ComboBox\Combo_over.bmp" focusedimage="ComboBox\Combo_over.bmp" />
+            <Label text="文件路径" float="true" pos="96,72,0,0" width="84" height="42" bkimage="C:\Users\ASUS\Desktop\TIM截图20190730171349.png" textcolor="#00FFFBF0" disabledtextcolor="#FFA7A6AA" align="center" />
+            <Button name="QueDing" text="确定" float="true" pos="495,78,0,0" width="61" height="29" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="button_nor.png" hotimage="button_focus.png" pushedimage="button_down.png" />
+            <Button name="ShengCheng" text="生成" float="true" pos="299,141,0,0" width="72" height="35" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="button_nor.png" hotimage="button_focus.png" pushedimage="button_down.png" />
+        </HorizontalLayout>
+        <HorizontalLayout height="54">
+            <Label text="MD5值：" float="true" pos="79,3,0,0" width="109" height="44" bkimage="Menu\menu_bk.png" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+            <Text float="true" pos="184,8,0,0" width="301" height="35" bkcolor="#FFFFFBF0" bkcolor2="#00FFFBF0" textpadding="2,0,2,0" align="wrap" />
+        </HorizontalLayout>
+        <HorizontalLayout height="268">
+            <List name="ListDemo1" float="true" pos="127,27,0,0" width="416" height="195" bkcolor="#FFFFA0A0" bkcolor2="#00E9E9FF" itemtextcolor="#FF000000" itembkcolor="#FFE2DDDF" itemselectedtextcolor="#FF000000" itemselectedbkcolor="#FFC1E3FF" itemhottextcolor="#FF000000" itemhotbkcolor="#FFE9F5FF" itemdisabledtextcolor="#FFCCCCCC" itemdisabledbkcolor="#FFFFFFFF" headerbkimage="List/list_header_bg.png">
+                <ListHeader name="domain" bkimage="List/list_header_bg.png">
+                    <ListHeaderItem text="时间" width="84" height="19" minwidth="16" textcolor="#FF000000" sepwidth="1" align="center" hotimage="List/list_header_hot.png" pushedimage="List/list_header_pushed.png" sepimage="List/list_header_sep.png" />
+                    <ListHeaderItem text="文字" width="161" height="20" minwidth="16" textcolor="#FF000000" sepwidth="1" align="center" hotimage="List/list_header_hot.png" pushedimage="List/list_header_pushed.png" sepimage="List/list_header_sep.png" />
+                </ListHeader>
+                <ListLabelElement />
+                <ListLabelElement />
+            </List>
+        </HorizontalLayout>
+    </VerticalLayout>
+</Window>

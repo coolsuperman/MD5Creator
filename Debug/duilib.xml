@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="731,562" sizebox="4,4,4,4" caption="0,0,0,32" mininfo="600,400">
+    <VerticalLayout bkimage="BG_YingHua.png">
+        <HorizontalLayout height="32" bkimage="C:\Users\ASUS\Desktop\TIM截图20190730172053.png" bkcolor="#EB7FCBDA" bkcolor2="#005A5A5A">
+            <VerticalLayout />
+            <VerticalLayout width="77">
+                <Button name="minbtn" tooltip="最小化" float="true" pos="0,5,0,0" width="23" height="19" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage=" file=&apos;SysBtn\MinNormal.bmp&apos; " hotimage=" file=&apos;SysBtn\MinFocus.bmp&apos; " pushedimage=" file=&apos;SysBtn\MinFocus.bmp&apos; " />
+                <Button name="maxbtn" tooltip="最大化" float="true" pos="22,5,0,0" width="23" height="19" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage=" file=&apos;SysBtn\MaxNormal.bmp&apos; " hotimage=" file=&apos;SysBtn\MaxFocus.bmp&apos; " pushedimage=" file=&apos;SysBtn\MaxFocus.bmp&apos; " />
+                <Button name="restorebtn" tooltip="还原" visible="false" float="true" pos="22,5,0,0" width="23" height="19" align="center" normalimage=" file=&apos;SysBtn\StoreNormal.bmp&apos; " hotimage=" file=&apos;SysBtn\StoreFocus.bmp&apos; " pushedimage=" file=&apos;SysBtn\StoreFocus.bmp&apos; " />
+                <Button name="closebtn" tooltip="关闭" float="true" pos="44,5,0,0" width="28" height="19" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage=" file=&apos;SysBtn\CloseNormal.bmp&apos; " hotimage=" file=&apos;SysBtn\CloseFocus.bmp&apos; " pushedimage=" file=&apos;SysBtn\CloseFocus.bmp&apos; " />
+            </VerticalLayout>
+        </HorizontalLayout>
+        <HorizontalLayout width="731" height="171">
+            <Edit name="WBK1" float="true" pos="255,74,0,0" width="251" height="41" bkimage="C:\Users\ASUS\Desktop\TIM截图20190730172902.png" bkcolor="#FFFFFFFF" bkcolor2="#00FFFFFF" textpadding="4,3,4,3" textcolor="#00969696" disabledtextcolor="#FFA7A6AA" readonly="true" />
+            <Button name="XuanZe" text="选择" float="true" pos="505,74,0,0" width="69" height="42" textcolor="#00FFFBF0" disabledtextcolor="#FFA7A6AA" align="center" normalimage="C:\Users\ASUS\Desktop\TIM截图20190730171947.png" hotimage="TIM截图20190730171947.png" pushedimage="C:\Users\ASUS\Desktop\TIM截图20190730171936.png" focusedimage="C:\Users\ASUS\Desktop\TIM截图20190730172008.png" />
+            <Control float="true" pos="213,74,0,0" width="45" height="41" bkimage="C:\Users\ASUS\Desktop\TIM截图20190730172846.png" />
+            <Button name="ShengCheng" text="生成" float="true" pos="325,128,0,0" width="73" height="43" textcolor="#00FFFBF0" disabledtextcolor="#FFA7A6AA" align="center" normalimage="TIM截图20190730171349.png" pushedimage="C:\Users\ASUS\Desktop\TIM截图20190730171936.png" focusedimage="TIM截图20190730171349.png" />
+            <Label text="文件:" float="true" pos="142,72,0,0" width="71" height="44" bkimage="C:\Users\ASUS\Desktop\TIM截图20190730171335.png" textcolor="#00FFFFE9" disabledtextcolor="#FFA7A6AA" align="center" />
+            <Control float="true" pos="240,21,0,0" width="251" height="40" bkimage="C:\Users\ASUS\Desktop\fafsf.png" />
+        </HorizontalLayout>
+        <HorizontalLayout width="731" height="74">
+            <Label text="MD5值:" float="true" pos="141,16,0,0" width="81" height="43" bkimage="C:\Users\ASUS\Desktop\TIM截图20190730171335.png" textcolor="#00FFFFE9" disabledtextcolor="#FFA7A6AA" align="center" />
+            <Edit name="WBK2" float="true" pos="212,16,0,0" width="293" height="44" bkcolor="#FFFFFFFF" textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" readonly="true" />
+            <Button name="Copy" text="复制" float="true" pos="504,16,0,0" width="70" height="44" textcolor="#00FFFBF0" disabledtextcolor="#FFA7A6AA" align="center" normalimage="C:\Users\ASUS\Desktop\TIM截图20190730171947.png" hotimage="TIM截图20190730171947.png" pushedimage="C:\Users\ASUS\Desktop\TIM截图20190730171936.png" focusedimage="C:\Users\ASUS\Desktop\TIM截图20190730172008.png" />
+        </HorizontalLayout>
+        <HorizontalLayout height="326">
+            <List name="ListDemo1" float="true" pos="163,36,0,0" width="387" height="195" bkimage="C:\Users\ASUS\Desktop\TIM截图20190730172902.png" bkcolor="#FFFFA0A0" bkcolor2="#00E9E9FF" itemtextcolor="#FF000000" itembkcolor="#FFE2DDDF" itemselectedtextcolor="#FF000000" itemselectedbkcolor="#FFC1E3FF" itemhottextcolor="#FF000000" itemhotbkcolor="#FFE9F5FF" itemdisabledtextcolor="#FFCCCCCC" itemdisabledbkcolor="#FFFFFFFF" headerbkimage="List/list_header_bg.png">
+                <ListHeader name="domain" bkimage="List/list_header_bg.png">
+                    <ListHeaderItem text="文件" width="179" height="18" minwidth="16" textcolor="#FF000000" sepwidth="1" align="center" hotimage="List/list_header_hot.png" pushedimage="List/list_header_pushed.png" sepimage="List/list_header_sep.png" />
+                    <ListHeaderItem text="MD5值" width="236" height="21" minwidth="16" textcolor="#FF000000" sepwidth="1" align="center" hotimage="List/list_header_hot.png" pushedimage="List/list_header_pushed.png" sepimage="List/list_header_sep.png" />
+                </ListHeader>
+                <ListLabelElement />
+                <ListLabelElement />
+            </List>
+            <Label text="History:" float="true" pos="84,36,0,0" width="79" height="17" bkimage="TIM截图20190730171335.png" textcolor="#00FFFFE9" disabledtextcolor="#FFA7A6AA" align="center" />
+            <Label text="By:HHZ" float="true" pos="316,249,0,0" width="79" height="20" textcolor="#00FFFFE9" disabledtextcolor="#FFA7A6AA" align="center" />
+        </HorizontalLayout>
+    </VerticalLayout>
+</Window>
