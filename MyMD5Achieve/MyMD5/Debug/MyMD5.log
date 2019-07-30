@@ -1,0 +1,18 @@
+﻿生成启动时间为 19/07/30 16:05:00。
+     1>项目“D:\Code\MyMD5\MyMD5\MyMD5.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt MD5.cc text.cpp
+         text.cpp
+         MD5.cc
+     1>d:\code\mymd5\mymd5\md5.cc(6): warning C4244: “=”: 从“unsigned __int64”转换到“size_t”，可能丢失数据
+     1>d:\code\mymd5\mymd5\md5.cc(87): warning C4244: “=”: 从“std::streamsize”转换到“size_t”，可能丢失数据
+         正在生成代码...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Code\MyMD5\Debug\MyMD5.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\Code\MyMD5\Debug\MyMD5.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Code\MyMD5\Debug\MyMD5.lib" /MACHINE:X86 Debug\MD5.obj
+         Debug\text.obj
+         MyMD5.vcxproj -> D:\Code\MyMD5\Debug\MyMD5.exe
+     1>已完成生成项目“D:\Code\MyMD5\MyMD5\MyMD5.vcxproj”(Rebuild 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:02.64
